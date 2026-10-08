@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.prsoft.igpmanagercalc",
+      "sha256_cert_fingerprints": [
+        "D7:C1:24:FF:24:84:95:C5:92:8C:F3:C8:FA:A4:41:DC:0B:B6:0D:9D:49:AC:4D:C9:26:24:61:08:A1:3F:89:3B"
+      ]
+    }
+  }
+]
