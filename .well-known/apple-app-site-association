@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["DCS7QG35S6.com.prsoft.igpmanagercalc"],
+        "components": [
+          { "/": "/league/*", "comment": "Open a shared league directly in the league planner" },
+          { "/": "/strategy/*", "comment": "Open a shared strategy" },
+          { "/": "/download", "comment": "Tracked campaign landing link" }
+        ]
+      }
+    ]
+  },
+  "activitycontinuation": {
+    "apps": ["DCS7QG35S6.com.prsoft.igpmanagercalc"]
+  }
+}
