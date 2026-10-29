@@ -1,0 +1,19 @@
+{
+  "id": "/",
+  "name": "iGP Manager Calculator",
+  "short_name": "iGP Calculator",
+  "description": "Unabhängiger Strategie- und Rennplaner für iGP Manager.",
+  "lang": "de",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#03070d",
+  "theme_color": "#03070d",
+  "categories": ["games", "utilities"],
+  "icons": [
+    {"src": "/pwa-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "/pwa-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "/pwa-icon.png", "sizes": "1024x1024", "type": "image/png", "purpose": "any"}
+  ]
+}
