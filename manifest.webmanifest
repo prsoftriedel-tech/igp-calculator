@@ -1,7 +1,7 @@
 {
   "id": "/",
   "name": "iGP Manager Calculator",
-  "short_name": "iGP Calculator",
+  "short_name": "iGP Manager Calculator",
   "description": "Unabhängiger Strategie- und Rennplaner für iGP Manager.",
   "lang": "de",
   "start_url": "/",
