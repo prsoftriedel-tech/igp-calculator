@@ -5,7 +5,12 @@
         "appIDs": ["DCS7QG35S6.com.prsoft.igpmanagercalc"],
         "components": [
           { "/": "/league/*", "comment": "Open a shared league directly in the league planner" },
-          { "/": "/strategy/*", "comment": "Open a shared strategy" },
+          { "/": "/race-center", "comment": "Open the Race Center" },
+          { "/": "/race/*", "comment": "Open a saved upcoming race" },
+          { "/": "/strategy", "comment": "Open the strategy planner" },
+          { "/": "/history", "comment": "Open race history" },
+          { "/": "/setup", "comment": "Open the setup advisor" },
+          { "/": "/pro", "comment": "Open Strategy Plus" },
           { "/": "/download", "comment": "Tracked campaign landing link" }
         ]
       }
