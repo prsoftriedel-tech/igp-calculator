@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>iGP Manager 27 Strategy Preview – iGP Manager Calculator</title>
+  <meta name="description" content="Try the free iGP Manager 27 strategy preview and join the beta list for new weather and race-condition planning tools.">
+  <meta name="theme-color" content="#060d18">
+  <link rel="canonical" href="https://igp-calculator.de/igp27.html">
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/igp27.css">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <script defer src="/igp27.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="/">iGP MANAGER<small>CALCULATOR</small></a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="#strategy-check">Strategy Check</a>
+        <a href="#beta">Beta list</a>
+        <a class="btn" href="/rechner/">Open calculator ↗</a>
+      </nav>
+    </div>
+  </header>
+  <main id="content" class="wrap">
+    <section class="igp27-hero">
+      <div>
+        <div class="eyebrow">Preparing for iGP Manager 27</div>
+        <h1>The race is changing.<br><em>Prepare before it starts.</em></h1>
+        <p class="lede">Dynamic weather, Safety Cars, flags, team radio and exact push control will create more decision points. The Calculator is preparing verified tools for those conditions—without pretending to know mechanics that have not yet been tested.</p>
+        <div class="actions">
+          <a class="btn" href="#strategy-check">Try the free preview</a>
+          <a class="btn secondary" href="#beta">Join the beta list</a>
+        </div>
+        <p class="note">Independent companion app. Not affiliated with or endorsed by iGP Games. <a href="https://igpmanager.com/news-article/178/igp-manager-27-this-november" target="_blank" rel="noopener">Read the official iGP Manager 27 announcement ↗</a></p>
+      </div>
+      <aside class="launch-card" aria-label="Planned iGP Manager 27 support">
+        <span class="pill">IN DEVELOPMENT</span>
+        <h2>Race-condition planning</h2>
+        <ul class="feature-list">
+          <li><strong>Dynamic weather</strong><span>Lap-based rain windows and tyre transitions</span></li>
+          <li><strong>Safety Car scenarios</strong><span>Prepare alternative pit windows</span></li>
+          <li><strong>1% push control</strong><span>Compare precise pace, fuel and wear assumptions</span></li>
+          <li><strong>One or two cars</strong><span>Separate decisions without losing the overview</span></li>
+        </ul>
+      </aside>
+    </section>
+
+    <section id="strategy-check" class="section strategy-check">
+      <div class="eyebrow">Free strategy preview</div>
+      <h2>See what your current data can already tell you.</h2>
+      <p class="lede">Enter your own test values. This preview calculates a safe stint structure that aims to keep estimated tyre life at or above 40%.</p>
+      <div class="calculator-layout">
+        <form id="strategy-form" class="card form-card">
+          <div class="form-grid">
+            <label>Race laps<input name="laps" type="number" min="3" max="200" step="1" value="40" required></label>
+            <label>Fuel per lap (L)<input name="fuel" type="number" min="0.1" max="20" step="0.01" value="2.10" required></label>
+            <label>Tyre wear per lap (%)<input name="wear" type="number" min="0.1" max="30" step="0.1" value="3.0" required></label>
+            <label>Fuel reserve (L)<input name="reserve" type="number" min="0" max="30" step="0.5" value="2" required></label>
+            <label>Expected conditions<select name="weather"><option value="dry">Dry</option><option value="changeable">Changeable</option><option value="wet">Wet</option></select></label>
+            <label>Cars<select name="cars"><option value="1">1 car</option><option value="2">2 cars</option></select></label>
+          </div>
+          <button class="btn" type="submit">Calculate preview</button>
+          <p class="note">This estimate uses only your entries. It does not access your iGP account and cannot guarantee a race result.</p>
+        </form>
+        <div id="strategy-result" class="sample result-card" aria-live="polite">
+          <div class="samplehead"><strong>Preview result</strong><span class="pill">FREE</span></div>
+          <p class="result-empty">Enter your test data and calculate a preview.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section premium-preview" aria-labelledby="premium-title">
+      <div>
+        <div class="eyebrow">Strategy Plus preview</div>
+        <h2 id="premium-title">The first answer is free. The complete race plan goes further.</h2>
+        <p>Strategy Plus is designed to turn the preview into an actionable plan with per-stint fuel, compound choices, push adaptation and alternatives for changing race conditions.</p>
+      </div>
+      <div class="locked-plan" aria-label="Premium feature preview">
+        <div><span>Full stint plan</span><strong>Tyres · Fuel · Stops</strong></div>
+        <div><span>Weather fallback</span><strong>Alternative pit windows</strong></div>
+        <div><span>Two-car split</span><strong>Separate timing</strong></div>
+        <a class="btn" href="/rechner/?page=pro">View Strategy Plus →</a>
+      </div>
+    </section>
+
+    <section id="beta" class="section beta-section">
+      <div>
+        <div class="eyebrow">Early access list</div>
+        <h2>Help test the iGP Manager 27 tools.</h2>
+        <p class="lede">Join the list to receive the launch notice and an invitation when the new planning tools are ready for testing.</p>
+        <ul class="checklist">
+          <li>No newsletter flood—only relevant beta and launch messages.</li>
+          <li>No iGP game password or account access is required.</li>
+          <li>You can ask to have your entry removed at any time.</li>
+        </ul>
+      </div>
+      <form id="beta-form" class="card beta-form">
+        <label>Email address<input name="email" type="email" autocomplete="email" maxlength="254" required></label>
+        <div class="form-grid">
+          <label>Platform<select name="platform" required><option value="">Choose…</option><option value="ios">iOS</option><option value="android">Android</option><option value="web">Web / PC</option></select></label>
+          <label>Main race mode<select name="raceMode" required><option value="">Choose…</option><option value="league">League races</option><option value="sprint">Sprint races</option><option value="both">Both</option></select></label>
+          <label>Cars<select name="cars" required><option value="1">1 car</option><option value="2">2 cars</option></select></label>
+          <label>Language<select name="locale"><option value="en">English</option><option value="de">Deutsch</option><option value="other">Other</option></select></label>
+        </div>
+        <label class="consent"><input name="consent" type="checkbox" required><span>I agree that my email and selections may be stored to contact me about the iGP Manager 27 beta and launch. See the <a href="/privacy.html" target="_blank" rel="noopener">Privacy Policy</a>.</span></label>
+        <button class="btn" type="submit">Join the beta list</button>
+        <p id="beta-status" class="form-status" role="status"></p>
+      </form>
+    </section>
+
+    <section class="bottomcta">
+      <div><h2>Want to plan a race now?</h2><p>The current calculator already supports league and sprint preparation on iOS, Android and the web.</p></div>
+      <a class="btn" href="/rechner/">Open calculator →</a>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <div class="links"><a href="/">Home</a><a href="/rechner/">Calculator</a><a href="/privacy.html">Privacy Policy</a><a href="mailto:prsoft@me.com">Contact &amp; Support</a></div>
+      <p>Independent companion app. Not affiliated with or endorsed by iGP Games. Strategy recommendations are planning aids; actual results depend on your data and in-game conditions.</p>
+      <p>PRSoft-tech · iGP Manager Calculator</p>
+    </div>
+  </footer>
+</body>
+</html>
