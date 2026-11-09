@@ -1,0 +1,18 @@
+iGP Manager Calculator Website v126
+White-screen hotfix – 2026-11-09
+
+Fixed:
+- Strategy page no longer crashes during React initialization.
+- Manual numeric setup fields use the correct React hooks.
+- Service-worker cache was increased to v126 so the repaired bundle replaces v125.
+
+Included from v125:
+- Direct numeric entry for calculator settings.
+- Front wing range: 5.0 to 35.0.
+- Rear wing range: 10.0 to 40.0.
+- Tyre pressure range: up to 27.0.
+- Updated setup guidance and translations.
+
+Deployment:
+Upload the complete contents of this folder to the repository root.
+After GitHub Pages has finished, reload the website with Ctrl+F5.

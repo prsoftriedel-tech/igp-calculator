@@ -1,4 +1,9 @@
-iGP Manager Calculator Website v125
+iGP Manager Calculator Website v126
+
+Hotfix:
+- Weißer Bildschirm im Rechner behoben.
+- React-Hooks der direkten Zahleneingabe verwenden jetzt den korrekten
+  Web-Runtime-Import.
 
 Änderungen:
 - Setupwerte können direkt per Tastatur eingegeben werden.
