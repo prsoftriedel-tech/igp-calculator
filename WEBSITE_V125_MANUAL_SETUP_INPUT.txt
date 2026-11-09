@@ -1,0 +1,16 @@
+iGP Manager Calculator Website v125
+
+Änderungen:
+- Setupwerte können direkt per Tastatur eingegeben werden.
+- Plus- und Minus-Schaltflächen bleiben für die Feinjustierung erhalten.
+- Frontflügel: 5,0 bis 35,0.
+- Heckflügel: 10,0 bis 40,0.
+- Reifendruck: 10,0 bis 27,0 PSI.
+- Eingaben werden beim Verlassen des Feldes geprüft und begrenzt.
+- Ein Hinweis zur direkten Eingabe ist in allen unterstützten Sprachen sichtbar.
+- Der Service-Worker-Cache wurde aktualisiert, damit die neue Oberfläche geladen wird.
+
+Veröffentlichung:
+Den Inhalt des Ordners igp-calculator-main vollständig in das bestehende
+Website-Repository kopieren und die vorhandenen Dateien ersetzen. Danach wie
+gewohnt committen und veröffentlichen.
