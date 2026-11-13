@@ -1,0 +1,21 @@
+.content-hero{padding:68px 0 48px;border-bottom:1px solid var(--line)}
+.content-hero h1{max-width:900px}
+.knowledge-grid{grid-template-columns:repeat(3,1fr)}
+.knowledge-grid .card{display:flex;flex-direction:column}
+.knowledge-grid .card a{margin-top:auto}
+.demo-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:32px;align-items:start;padding:48px 0}
+.demo-form{display:grid;gap:18px}
+.demo-form h2{margin:0}
+.demo-form label{display:grid;gap:7px;color:var(--text);font-weight:700;font-size:14px}
+.demo-form input{width:100%;padding:13px 14px;border-radius:8px;border:1px solid var(--line);background:#091320;color:var(--text);font:inherit}
+.demo-form input:focus{outline:3px solid var(--gold);outline-offset:2px}
+.demo-form .btn{cursor:pointer}
+.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}
+.result-grid div{padding:16px;background:#091320;border:1px solid var(--line);border-radius:9px}
+.result-grid span{display:block;color:var(--muted);font-size:12px}
+.result-grid strong{display:block;color:var(--gold);font-size:22px;margin-top:5px}
+.article .formula+.formula{margin-top:12px}
+.article time{color:var(--muted)}
+.article-meta{font-size:13px;color:var(--muted);margin-top:-10px}
+@media(max-width:900px){.knowledge-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:760px){.content-hero{padding:42px 0 32px}.knowledge-grid,.demo-layout,.result-grid{grid-template-columns:1fr}.demo-layout{padding:32px 0}}

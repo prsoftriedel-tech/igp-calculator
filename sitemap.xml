@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://igp-calculator.de/</loc></url>
-  <url><loc>https://igp-calculator.de/igp27.html</loc></url>
-  <url><loc>https://igp-calculator.de/anleitungen/kraftstoff.html</loc></url>
-  <url><loc>https://igp-calculator.de/anleitungen/reifen.html</loc></url>
-  <url><loc>https://igp-calculator.de/anleitungen/rennstrategie.html</loc></url>
+  <url><loc>https://igp-calculator.de/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/rechner-demo.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/methodik.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/ueber-uns.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/faq.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/kontakt.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/impressum.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/igp27.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/kraftstoff.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/reifen.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/rennstrategie.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/push-level.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/boxenstopp-undercut.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/regenstrategie.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/setup-grundlagen.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/strategie-italien.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/ein-zwei-drei-stopps.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/testdaten-erfassen.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/anleitungen/haeufige-fehler.html</loc><lastmod>2026-11-13</lastmod></url>
+  <url><loc>https://igp-calculator.de/terms/</loc><lastmod>2026-11-13</lastmod></url>
 </urlset>
